@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+button:focus {
+  outline: 2px dashed theme('colors.accent');
+  outline-offset: 2px;
+}
